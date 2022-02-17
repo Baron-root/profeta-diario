@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #261501;
+}
+
+.conteiner {
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  background-color: #d9bd9c;
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+}
+
+section {
+  padding: 20px;
+  background-image: url("../img/367863.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+.form-conteiner {
+  max-width: 230px;
+  background-color: #ffffffbb;
+  padding: 20px;
+  float: right;
+}
+
+h2 {
+  font-size: 25px;
+}
+.E {
+  font-size: 50px;
+}
+.N {
+  font-size: 30px;
+}
+
+.mb {
+  margin-bottom: 15px;
+}
+input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  color: #fff;
+  background-color: #48c5ce;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("../img/arrow.jpg");
+  background-repeat: no-repeat;
+
+  background-position: calc(100% - 10px) center;
+}
+
+footer {
+  background-color: #8c7b65;
+  padding: 40px;
+  text-align: center;
+}
+
+.picture {
+  width: 200px;
+}
+.B {
+  font-size: 50px;
+}
+.description {
+  text-align: left;
+  display: inline-block;
+  color: #fff;
+  max-width: 40%;
+  margin-bottom: 40px;
+}
+
+.description p,
+.description h3 {
+  margin: 20px;
+}
+
+.description h3 {
+  font-size: 24px;
+}
